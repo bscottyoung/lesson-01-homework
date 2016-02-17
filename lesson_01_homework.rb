@@ -30,7 +30,7 @@ end
 # Fix Broken Code
 
 def full_name(first_name, last_name)
-    first_name + l.to_s
+    first_name + " " + last_name
 end
 puts full_name("bubba", "chuck")
 
@@ -42,7 +42,7 @@ puts full_name("bubba", "chuck")
 def add(num_1, num_2)
     num_1+num_2
 end
-puts (sum=add(1,2))
+puts add(1,2))
 
 ## Enter the code for you 'join_strings' method below
 def join_strings(string_1, string_2)
@@ -53,7 +53,7 @@ puts join_strings("betty", "ford")
 
 
 ## Enter your 'old_enough_to_vote?' method below
-def old_enough_to_vote?(age)
-  age >= 18 ? "yes" : "no"
+def old_enough_to_vote?(yr_born)
+  (2016 - yr_born) >= 18 ? "yes" : "no"
 end
-puts old_enough_to_vote?(24)
+puts old_enough_to_vote?(1999)

@@ -1,0 +1,15 @@
+to upload from cmd line while IN the directory holding your file:
+
+"git status"
+then
+"git add" + file name
+then
+"git status"
+then
+"git comit -m 'place description of your file' "
+then
+"git remote"   --> should return "origin"
+then
+"git push origin master" --> here's my confusion...not sure if it really is master.  
+
+I have figured out how to use the desktop.  Let me know if you want to speak for me to step you through.
